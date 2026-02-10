@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# But keep directories so Git can traverse to unignored files
+!*/
+
+# Keep Jupyter notebooks
+!**/*.ipynb
+
+# Keep this .gitignore itself
+!.gitignore
